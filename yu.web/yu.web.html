@@ -19,15 +19,15 @@
 
     /* 頁首 */
     header {
-      background-color: #333366;
-      color: white;
+      background-color: #EBEBE3;
+      color: break;
       padding: 20px;
       text-align: center;
     }
 
     /* 導覽列：使用 Flexbox 置中 */
     nav {
-      background-color: #4CAF50;
+      background-color: #909FA6;
       display: flex;              /* 使用 Flex 排版 */
       justify-content: center;    /* 水平置中 */
       align-items: center;        /* 垂直置中 */
@@ -42,7 +42,7 @@
       flex: 0 0 auto;  
     }
     nav a:hover {
-      background-color: #45a049;
+      background-color: #afb1a4;
     }
 
     /* 主要內容容器 */
@@ -63,7 +63,7 @@
 
     /* 按鈕樣式 */
     .button {
-      background-color: #4CAF50;
+      background-color: #83B1C9;
       color: white;
       padding: 12px 24px;
       border: none;
@@ -73,7 +73,7 @@
       transition: background-color 0.3s ease;
     }
     .button:hover {
-      background-color: #45a049;
+      background-color: #83B1F9;
     }
 
     /* 讀取更多的區塊 */
@@ -104,8 +104,8 @@
 
     /* 固定頁尾在底部 */
     footer {
-      background-color: #333366;
-      color: white;
+      background-color: #EBEBE3;
+      color: black;
       text-align: center;
       padding: 10px;
       position: fixed;
@@ -142,7 +142,10 @@
   <div class="container">
     <!-- 首頁區塊 -->
     <div id="home" class="section active">
-      <p>這是一個簡單的 HTML + CSS 範例，並加入了一些互動功能。</p>
+	  <p style="text-align: center;">
+          這是一個簡單的 HTML + CSS<br>
+          並加入了一些互動功能
+      </p>
       <button class="button" onclick="alert('嗨!')">點我一下</button>
       <br>
       <button class="button" onclick="toggleContent()">讀取更多</button>
